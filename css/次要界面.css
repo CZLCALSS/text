@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.top{
+   width: 1930px;
+   height: 80px;
+   background-color: black;
+   background: rgba(0, 0, 0, 0.5);
+}
+.top_content{
+	width: 75%;
+	height: 80px;
+	margin: 0px auto;
+	background-color: #828282;
+}
+.head-nav > li{
+	float: left;
+	list-style: none;
+	width: 20%;
+    height: 80px;
+    text-align: center;
+}
+#zhuye{
+    line-height: 80px;
+    color: #5F5D5D;
+    font-size: 30px; 
+}
+#zhuye1{
+	width: 8%;
+	height: 90px;
+	text-align: center;
+	background-color: #0BFC5E;
+	float: left;
+}
+#zhuye2{
+	float: left;
+	width: 72%;
+	height: 90px;
+	margin-top: 20px;
+}
+div a:link{
+	color: red;
+	text-decoration: none;
+}
+div a:visited{
+	color: red;
+}
+div a:hover{
+	color: #0000FF;
+}
+div a:active{
+	color: #0000FF;
+}
+.head-nav-title{
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.head-nav-subtitle{
+	display: : block;
+	color: #ffffff;
+	font-size: 11px;
+	margin-top: -1px;
+	letter-spacing: 1px;
+}
+.header {
+    height: 100px;
+    line-height: 100px;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+div {
+    display: block;
+}
+h1,div,form{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.header .mallLogo {
+    margin-left: 38px;
+    float: left;
+}
+.header .mallSearch {
+    float: right;
+    width: 500px;
+    padding-top: 30px;
+    position: relative;
+}
+.header .mallSearch form {
+    height: 38px;
+    line-height: 38px;
+    border-width: 1px 0 1px 1px;
+    border: solid #cfb2f6;
+    position: relative;
+}
+.header .mallSearch input {
+    height: 38px;
+    line-height: 38px;
+    width: 436px;
+    float: left;
+    border: none;
+    position: relative;
+    z-index: 2;
+    background: none;
+}
+.layui-input, .layui-textarea {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+}
+.layui-btn {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.layui-btn .layui-icon {
+    margin-right: 3px;
+    font-size: 18px;
+    vertical-align: bottom;
+    vertical-align: middle\9;
+}
+.layui-icon {
+    font-family: layui-icon!important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
